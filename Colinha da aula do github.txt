@@ -1,0 +1,19 @@
+git init
+
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.br
+
+// "caminho do seu repositório ---> https://github.com/rodrimartins/Estruturas_de_Dados.git"
+
+git clone https://github.com/rodrimartins/Estruturas_de_Dados.git
+
+// "nome do arquivo"
+git add teste.txt
+
+git add .
+
+git status
+
+git commit -m "Subindo arquivo criado para teste na aula do dia 19/08/2020"
+
+git push
